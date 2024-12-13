@@ -1,0 +1,229 @@
+.container2 {
+  background: linear-gradient( #750050, #b10042, #da4837, #f7bb38);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  overflow: hidden;
+}
+
+.mountains {
+height: 40em;
+width: 15em;
+background-color: var(--mountain-color, #ff8c00); /* Use a CSS variable */
+position: absolute;
+left: 5.4em;
+bottom: -14em;
+transform: rotate(-50deg);
+}
+.mountains::before {
+content: "";
+position: absolute;
+height: 13em;
+width: 12em;
+background-color: var(--mountain-before-color, #ff8c00);
+left: 7em;
+bottom: 14em;
+transform: rotate(-90deg);
+}
+.mountains::after {
+content: "";
+position: absolute;
+height: 19em;
+width: 11em;
+background-color: var(--mountain-after-color, #ff8c00);
+left: 10em;
+bottom: -3em;
+transform: rotate(20deg);
+}
+
+
+.land {
+height: 15em;
+width: 107%;
+background-color: #041524;
+position: absolute;
+left: -2em;
+bottom: -9.5em;
+transform: rotate(5deg);
+}
+.moon {
+height: 5.3em;
+width: 5.3em;
+margin:50px 50%;
+background-color: #ffffff;
+position: absolute;
+left: 12em;
+top: 1em;
+border-radius: 50%;
+box-shadow: 0 0 0 0.62em rgba(128, 192, 232, 0.6),
+  0 0 0 1.25em rgba(84, 138, 172, 0.5), 0 0 0 1.9em rgba(52, 127, 173, 0.4);
+  transform: scale(1.65);
+z-index: 15;
+}
+.moon:before {
+content: "";
+position: absolute;
+background-color: #f1f1f1;
+height: 1.6em;
+width: 1.6em;
+border-radius: 50%;
+top: 1.2em;
+left: 1em;
+transform: scale(1.1);
+}
+.moon:after {
+content: "";
+position: absolute;
+background-color: #f1f1f1;
+height: 1.15em;
+width: 1.15em;
+border-radius: 50%;
+top: 3.5em;
+left: 1.8em;
+transform: scale(1.1);
+}
+
+
+
+
+.windmill {
+height: 0;
+width: 1.5em;
+border-bottom: 2.37em solid #041524;
+border-left: 0.15em solid transparent;
+border-right: 0.15em solid transparent;
+position: absolute;
+right: 12.5em;
+bottom: 15.15em;
+transform: scale(1.2);
+}
+.windmill:after {
+position: absolute;
+content: "";
+background-color: #041524;
+height: 0.62em;
+width: 1.25em;
+bottom: -0.06em;
+border-radius: 1.25em 1.25em 0 0;
+}
+.windmill:before {
+content: "";
+position: absolute;
+width: 1.5em;
+height: 0;
+border-bottom: 0.37em solid #0b2231;
+border-left: 0.06em solid transparent;
+border-right: 0.06em solid transparent;
+position: absolute;
+right: -0.2em;
+top: 0.06em;
+}
+.light {
+height: 0.25em;
+width: 0.25em;
+background-color: #8daf76;
+position: absolute;
+top: 0.75em;
+left: 0.5em;
+border-radius: 50%;
+box-shadow: 0 0 0.06em 0.12em rgba(141, 175, 118, 0.3),
+  0 0 0.06em 0.25em rgba(141, 175, 118, 0.2);
+}
+.light:before {
+content: "";
+position: absolute;
+background-color: #0f304f;
+height: 0.5em;
+width: 0.5em;
+bottom: -1.25em;
+left: -0.12em;
+border-radius: 0.25em 0.25em 0 0;
+}
+.blades {
+height: 3.75em;
+width: 3.75em;
+position: absolute;
+bottom: -1.9em;
+left: -1.25em;
+animation: spin 5s infinite linear;
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.blades:before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 0.5em;
+  background-color: #041524;
+  left: 1.62em;
+}
+.blades:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 0.5em;
+  background-color: #041524;
+  left: 1.62em;
+  transform: rotate(90deg);
+}
+
+
+
+
+
+
+
+.tree {
+  height: 0;
+  width: 0;
+  border-bottom: 2em solid #041524;
+  border-left: 0.37em solid transparent;
+  border-right: 0.37em solid transparent;
+  position: absolute;
+  bottom: 14.8em;
+  left: 5em;
+}
+.tree:before {
+  content: "";
+  position: absolute;
+  border-bottom: 1.56em solid #041524;
+  border-left: 0.37em solid transparent;
+  border-right: 0.37em solid transparent;
+  bottom: -2.18em;
+  left: 0.18em;
+}
+
+
+.tree1 {
+  height: 0;
+  width: 0;
+  border-bottom: 3em solid #041524;
+  border-left: 0.37em solid transparent;
+  border-right: 0.37em solid transparent;
+  position: absolute;
+  bottom: 14.8em;
+  left: 17em;
+}
+.tree1:before {
+  content: "";
+  position: absolute;
+  border-bottom: 2em solid #041524;
+  border-left: 0.55em solid transparent;
+  border-right: 0.3em solid transparent;
+  bottom: -3em;
+  left: 0.18em;
+}
+
+
+
+
+
+
+
+

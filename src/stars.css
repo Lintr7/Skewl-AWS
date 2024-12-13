@@ -1,0 +1,889 @@
+.star,
+  .star:before,
+  .star:after {
+    height: 0.18em;
+    width: 0.18em;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.3;
+    animation: twinkle 2s infinite;
+  }
+  @keyframes twinkle {
+    50% {
+      opacity: 1;
+    }
+ }
+ 
+  .star-1 {
+    top: 4em; /* Slightly lower */
+    left: 18.75em;
+}
+.star-1:before {
+    content: "";
+    top: 1.5em; /* Adjusted height */
+    left: -16.4em;
+    animation-delay: 1.6s; /* Changed delay */
+}
+.star-1:after {
+    content: "";
+    left: -12.8em;
+    top: 5.5em; /* Slightly higher */
+    animation-delay: 0.9s; /* Changed delay */
+}
+.star-2 {
+    left: 11.25em;
+    top: 2.5em; /* Slightly lower */
+    animation-delay: 1.2s; /* Changed delay */
+}
+.star-2:before {
+    content: "";
+    left: 2.5em;
+    top: 8.25em; /* Adjusted height */
+    animation-delay: 0.3s; /* Changed delay */
+}
+.star-2:after {
+    content: "";
+    left: 7.5em;
+    top: 6em; /* Slightly lower */
+    animation-delay: 1.7s; /* Changed delay */
+}
+.star-3 {
+    left: 15em;
+    top: 2.0em; /* Slightly lower */
+    animation-delay: 0.05s; /* Changed delay */
+}
+.star-3:before {
+    content: "";
+    top: 5em;
+    left: -0.5em; /* Adjusted position */
+}
+.star-4 {
+    top: 4.5em; /* Slightly higher */
+    left: calc(18.75em + 5em); /* Move 5em to the right */
+    animation-delay: 0.2s; /* Changed delay */
+}
+.star-4:before, .star-1:after {
+    content: "";
+    position: absolute;
+    height: 0.6em; /* Slightly larger */
+    width: 0.6em; /* Slightly larger */
+    background-color: #ffffff;
+    border-radius: 50%;
+    animation: twinkle 2.5s infinite; /* Changed duration */
+}
+.star-4:before {
+    top: 2.0em; /* Adjusted height */
+    left: calc(-16.4em + 5em); /* Move pseudo-element 5em to the right */
+}
+.star-4:after {
+    left: calc(-12.8em + 5em); /* Move pseudo-element 5em to the right */
+    top: 5.5em; /* Slightly higher */
+}
+.star-5 {
+    top: 3.5em; /* Slightly lower */
+    left: calc(11.25em + 5em); /* Move 5em to the right */
+    animation-delay: 0.3s; /* Changed delay */
+}
+.star-5:before {
+    left: calc(2.5em + 5em); /* Move pseudo-element 5em to the right */
+    top: 8.5em; /* Adjusted height */
+    animation-delay: 0.2s; /* Changed delay */
+}
+.star-5:after {
+    left: calc(7.5em + 5em); /* Move pseudo-element 5em to the right */
+    top: 6.5em; /* Slightly higher */
+    animation-delay: 0.3s; /* Changed delay */
+}
+.star-6 {
+    top: 2.0em; /* Slightly lower */
+    left: calc(15em + 5em); /* Move 5em to the right */
+    animation-delay: 0.15s; /* Changed delay */
+}
+.star-6:before {
+    top: 5.5em; /* Slightly higher */
+    left: calc(-0.5em + 5em); /* Move pseudo-element 5em to the right */
+}
+.star-7 {
+    top: 4.0em; /* Slightly higher */
+    left: calc(18.75em + 10em); /* Move 10em to the right */
+    animation-delay: 0.5s; /* Changed delay */
+}
+.star-7:before, .star-1:after {
+    content: "";
+    position: absolute;
+    height: 0.5em; /* Original size */
+    width: 0.5em; /* Original size */
+    background-color: #ffffff;
+    border-radius: 50%;
+    animation: twinkle 2s infinite; /* Original duration */
+}
+.star-7:before {
+    top: 1.5em; /* Adjusted height */
+    left: calc(-16.4em + 10em); /* Move pseudo-element 10em to the right */
+}
+.star-7:after {
+    left: calc(-12.8em + 10em); /* Move pseudo-element 10em to the right */
+    top: 5.0em; /* Original height */
+}
+.star-8 {
+    top: 3.0em; /* Slightly lower */
+    left: calc(11.25em + 10em); /* Move 10em to the right */
+    animation-delay: 0.6s; /* Changed delay */
+}
+.star-8:before {
+    left: calc(2.5em + 10em); /* Move pseudo-element 10em to the right */
+    top: 8.0em; /* Adjusted height */
+    animation-delay: 0.1s; /* Changed delay */
+}
+.star-8:after {
+    left: calc(7.5em + 10em); /* Move pseudo-element 10em to the right */
+    top: 6.0em; /* Slightly lower */
+    animation-delay: 0.25s; /* Changed delay */
+}
+.star-9 {
+    top: 2.5em; /* Slightly lower */
+    left: calc(15em + 10em); /* Move 10em to the right */
+    animation-delay: 0.1s; /* Original delay */
+}
+.star-9:before {
+    top: 5.5em; /* Slightly higher */
+    left: calc(-0.5em + 10em); /* Move pseudo-element 10em to the right */
+}
+.star-10 {
+    top: 4.0em; /* Slightly higher */
+    left: calc(18.75em + 10em); /* Move 10em to the right */
+    animation-delay: 0.4s; /* Changed delay */
+}
+.star-10:before {
+    content: "";
+    top: 2.0em; /* Adjusted height */
+    left: calc(-16.4em + 10em); /* Move pseudo-element 10em to the right */
+}
+.star-10:after {
+    content: "";
+    left: calc(-12.8em + 10em); /* Move pseudo-element 10em to the right */
+    top: 5.5em; /* Slightly higher */
+}
+.star-11 {
+    top: 3.0em; /* Slightly lower */
+    left: calc(11.25em + 15em); /* Move 15em to the right */
+    animation-delay: 0.2s; /* Changed delay */
+}
+.star-11:before {
+    content: "";
+    left: calc(2.5em + 15em); /* Move pseudo-element 15em to the right */
+    top: 8.25em; /* Adjusted height */
+    animation-delay: 1.1s; /* Changed delay */
+}
+.star-11:after {
+    content: "";
+    left: calc(7.5em + 15em); /* Move pseudo-element 15em to the right */
+    top: 6.25em; /* Original height */
+    animation-delay: 0.3s; /* Changed delay */
+}
+.star-12 {
+    top: 2.5em; /* Slightly lower */
+    left: calc(15em + 15em); /* Move 15em to the right */
+    animation-delay: 0.15s; /* Original delay */
+}
+.star-12:before {
+    content: "";
+    top: 5.5em; /* Slightly higher */
+    left: calc(-0.5em + 15em); /* Move pseudo-element 15em to the right */
+}
+.star-13 {
+    top: 4.5em; /* Slightly higher */
+    left: calc(18.75em + 20em); /* Move 20em to the right */
+    animation-delay: 0.5s; /* Changed delay */
+}
+.star-13:before {
+    content: "";
+    top: 2.0em; /* Adjusted height */
+    left: calc(-16.4em + 20em); /* Move pseudo-element 20em to the right */
+}
+.star-13:after {
+    content: "";
+    left: calc(-12.8em + 20em); /* Move pseudo-element 20em to the right */
+    top: 5.5em; /* Slightly higher */
+}
+.star-14 {
+    top: 3.5em; /* Slightly lower */
+    left: calc(11.25em + 20em); /* Move 20em to the right */
+    animation-delay: 0.2s; /* Changed delay */
+}
+.star-14:before {
+    content: "";
+    left: calc(2.5em + 20em); /* Move pseudo-element 20em
+        top: 8.5em; /* Adjusted height */
+        animation-delay: 1s; /* Changed delay */
+}
+
+  
+.star-14:after {
+    content: "";
+    left: calc(7.5em + 20em); /* Move pseudo-element 20em to the right */
+    top: 6.5em; /* Slightly higher */
+    animation-delay: 0.4s; /* Changed delay */
+}
+.star-15 {
+    top: 2.0em; /* Slightly lower */
+    left: calc(15em + 20em); /* Move 20em to the right */
+    animation-delay: 0.3s; /* Changed delay */
+}
+.star-15:before {
+    top: 5.5em; /* Slightly higher */
+    left: calc(-0.5em + 20em); /* Move pseudo-element 20em to the right */
+}
+.star-16 {
+    top: 4.0em; /* Slightly higher */
+    left: calc(18.75em + 25em); /* Move 25em to the right */
+    animation-delay: 0.2s; /* Changed delay */
+}
+.star-16:before {
+    content: "";
+    top: 1.5em; /* Adjusted height */
+    left: calc(-16.4em + 25em); /* Move pseudo-element 25em to the right */
+}
+.star-16:after {
+    content: "";
+    left: calc(-12.8em + 25em); /* Move pseudo-element 25em to the right */
+    top: 5.5em; /* Slightly higher */
+}
+.star-17 {
+    top: 3.5em; /* Slightly lower */
+    left: calc(11.25em + 25em); /* Move 25em to the right */
+    animation-delay: 0.3s; /* Changed delay */
+}
+.star-17:before {
+    content: "";
+    left: calc(2.5em + 25em); /* Move pseudo-element 25em to the right */
+    top: 8.25em; /* Adjusted height */
+    animation-delay: 0.8s; /* Changed delay */
+}
+.star-17:after {
+    content: "";
+    left: calc(7.5em + 25em); /* Move pseudo-element 25em to the right */
+    top: 6.25em; /* Original height */
+    animation-delay: 0.4s; /* Changed delay */
+}
+.star-18 {
+    top: 2.5em; /* Slightly lower */
+    left: calc(15em + 25em); /* Move 25em to the right */
+    animation-delay: 0.2s; /* Original delay */
+}
+.star-18:before {
+    content: "";
+    top: 5.5em; /* Slightly higher */
+    left: calc(-0.5em + 25em); /* Move pseudo-element 25em to the right */
+}
+.star-19 {
+    top: 4.5em; /* Slightly higher */
+    left: calc(18.75em + 30em); /* Move 30em to the right */
+    animation-delay: 0.3s; /* Changed delay */
+}
+.star-19:before {
+    content: "";
+    top: 2.0em; /* Adjusted height */
+    left: calc(-16.4em + 30em); /* Move pseudo-element 30em to the right */
+}
+.star-19:after {
+    content: "";
+    left: calc(-12.8em + 30em); /* Move pseudo-element 30em to the right */
+    top: 5.5em; /* Slightly higher */
+}
+.star-20 {
+    top: 3.5em; /* Slightly lower */
+    left: calc(11.25em + 30em); /* Move 30em to the right */
+    animation-delay: 0.25s; /* Changed delay */
+}
+.star-20:before {
+    content: "";
+    left: calc(2.5em + 30em); /* Move pseudo-element 30em to the right */
+    top: 8.5em; /* Adjusted height */
+    animation-delay: 0.6s; /* Changed delay */
+}
+.star-20:after {
+    content: "";
+    left: calc(7.5em + 30em); /* Move pseudo-element 30em to the right */
+    top: 6.5em; /* Slightly higher */
+    animation-delay: 1.3s; /* Changed delay */
+}
+.star-21 {
+    top: 2.0em; /* Slightly lower */
+    left: calc(15em + 30em); /* Move 30em to the right */
+    animation-delay: 0.15s; /* Changed delay */
+}
+.star-21:before {
+    top: 5.5em; /* Slightly higher */
+    left: calc(-0.5em + 30em); /* Move pseudo-element 30em to the right */
+}
+.star-22 {
+    top: 4.0em; /* Slightly higher */
+    left: calc(18.75em + 35em); /* Move 35em to the right */
+    animation-delay: 0.2s; /* Changed delay */
+}
+.star-22:before {
+    content: "";
+    top: 1.5em; /* Adjusted height */
+    left: calc(-16.4em + 35em); /* Move pseudo-element 35em to the right */
+}
+.star-22:after {
+    content: "";
+    left: calc(-12.8em + 35em); /* Move pseudo-element 35em to the right */
+    top: 5.5em; /* Slightly higher */
+}
+.star-23 {
+    top: 3.5em; /* Slightly lower */
+    left: calc(11.25em + 35em); /* Move 35em to the right */
+    animation-delay: 0.7s; /* Changed delay */
+}
+.star-23:before {
+    content: "";
+    left: calc(2.5em + 35em); /* Move pseudo-element 35em to the right */
+    top: 8.25em; /* Adjusted height */
+    animation-delay: 1.5s; /* Changed delay */
+}
+.star-23:after {
+    content: "";
+    left: calc(7.5em + 35em); /* Move pseudo-element 35em to the right */
+    top: 6.25em; /* Original height */
+    animation-delay: 0.2s; /* Changed delay */
+}
+.star-24 {
+    top: 2.5em; /* Slightly lower */
+    left: calc(15em + 35em); /* Move 35em to the right */
+    animation-delay: 0.1s; /* Original delay */
+}
+.star-24:before {
+    content: "";
+    top: 5.5em; /* Slightly higher */
+    left: calc(-0.5em + 35em); /* Move pseudo-element 35em to the right */
+}
+.star-25 {
+    top: 4.5em; /* Slightly higher */
+    left: calc(18.75em + 40em); /* Move 40em to the right */
+    animation-delay: 0.7s; /* Changed delay */
+}
+.star-25:before {
+    content: "";
+    top: 2.0em; /* Adjusted height */
+    left: calc(-16.4em + 40em); /* Move pseudo-element 40em to the right */
+}
+.star-25:after {
+    content: "";
+    left: calc(-12.8em + 40em); /* Move pseudo-element 40em to the right */
+    top: 5.5em; /* Slightly higher */
+}
+.star-26 {
+    top: 3.5em; /* Slightly lower */
+    left: calc(11.25em + 40em); /* Move 40em to the right */
+    animation-delay: 0.2s; /* Changed delay */
+}
+.star-26:before {
+    content: "";
+    left: calc(2.5em + 40em); /* Move pseudo-element 40em to the right */
+    top: 8.5em; /* Adjusted height */
+    animation-delay: 0.6s; /* Changed delay */
+}
+.star-26:after {
+    content: "";
+    left: calc(7.5em + 40em); /* Move pseudo-element 40em to the right */
+    top: 6.5em; /* Slightly higher */
+    animation-delay: 0.3s; /* Changed delay */
+}
+.star-27 {
+    top: 2.0em; /* Slightly lower */
+    left: calc(15em + 40em); /* Move 40em to the right */
+    animation-delay: 0.15s; /* Changed delay */
+}
+.star-27:before {
+    top: 5.5em; /* Slightly higher */
+    left: calc(-0.5em + 40em); /* Move pseudo-element 40em to the right */
+}
+.star-28 {
+    top: 4.0em; /* Slightly higher */
+    left: calc(18.75em + 45em); /* Move 45em to the right */
+    animation-delay: 0.2s; /* Changed delay */
+}
+  
+  .star-28:before {
+    content: "";
+    top: 1.9em;
+    left: calc(-16.4em + 35em); /* Move pseudo-element 35em to the right */
+  }
+  
+  .star-28:after {
+    content: "";
+    left: calc(-12.8em + 45em); /* Move pseudo-element 45em to the right */
+    top: 5.5em; /* Slightly higher */
+}
+.star-29 {
+    top: 3.5em; /* Slightly lower */
+    left: calc(11.25em + 45em); /* Move 45em to the right */
+    animation-delay: 0.3s; /* Changed delay */
+}
+.star-29:before {
+    content: "";
+    left: calc(2.5em + 45em); /* Move pseudo-element 45em to the right */
+    top: 8.25em; /* Adjusted height */
+    animation-delay: 1.3s; /* Changed delay */
+}
+.star-29:after {
+    content: "";
+    left: calc(7.5em + 45em); /* Move pseudo-element 45em to the right */
+    top: 6.25em; /* Original height */
+    animation-delay: 1.7s; /* Changed delay */
+}
+.star-30 {
+    top: 2.5em; /* Slightly lower */
+    left: calc(15em + 45em); /* Move 45em to the right */
+    animation-delay: 0.3s; /* Original delay */
+}
+.star-30:before {
+    content: "";
+    top: 5.5em; /* Slightly higher */
+    left: calc(-0.5em + 45em); /* Move pseudo-element 45em to the right */
+}
+.star-31 {
+    top: 4.5em; /* Slightly higher */
+    left: calc(18.75em + 50em); /* Move 50em to the right */
+    animation-delay: 0.2s; /* Changed delay */
+}
+.star-31:before {
+    content: "";
+    top: 2.0em; /* Adjusted height */
+    left: calc(-16.4em + 50em); /* Move pseudo-element 50em to the right */
+}
+.star-31:after {
+    content: "";
+    left: calc(-12.8em + 50em); /* Move pseudo-element 50em to the right */
+    top: 5.5em; /* Slightly higher */
+}
+.star-32 {
+    top: 3.5em; /* Slightly lower */
+    left: calc(11.25em + 50em); /* Move 50em to the right */
+    animation-delay: 0.5s; /* Changed delay */
+}
+.star-32:before {
+    content: "";
+    left: calc(2.5em + 50em); /* Move pseudo-element 50em to the right */
+    top: 8.5em; /* Adjusted height */
+    animation-delay: 0.1s; /* Changed delay */
+}
+.star-32:after {
+    content: "";
+    left: calc(7.5em + 50em); /* Move pseudo-element 50em to the right */
+    top: 6.5em; /* Slightly higher */
+    animation-delay: 0.3s; /* Changed delay */
+}
+.star-33 {
+    top: 2.0em; /* Slightly lower */
+    left: calc(15em + 50em); /* Move 50em to the right */
+    animation-delay: 0.15s; /* Changed delay */
+}
+.star-33:before {
+    top: 5.5em; /* Slightly higher */
+    left: calc(-0.5em + 50em); /* Move pseudo-element 50em to the right */
+}
+.star-34 {
+    top: 4.0em; /* Slightly higher */
+    left: calc(18.75em + 55em); /* Move 55em to the right */
+    animation-delay: 0.2s; /* Changed delay */
+}
+.star-34:before {
+    content: "";
+    top: 1.5em; /* Adjusted height */
+    left: calc(-16.4em + 55em); /* Move pseudo-element 55em to the right */
+}
+.star-34:after {
+    content: "";
+    left: calc(-12.8em + 55em); /* Move pseudo-element 55em to the right */
+    top: 5.5em; /* Slightly higher */
+}
+.star-35 {
+    top: 3.5em; /* Slightly lower */
+    left: calc(11.25em + 55em); /* Move 55em to the right */
+    animation-delay: 0.9s; /* Changed delay */
+}
+.star-35:before {
+    content: "";
+    left: calc(2.5em + 55em); /* Move pseudo-element 55em to the right */
+    top: 8.25em; /* Adjusted height */
+    animation-delay: 0.1s; /* Changed delay */
+}
+.star-35:after {
+    content: "";
+    left: calc(7.5em + 55em); /* Move pseudo-element 55em to the right */
+    top: 6.25em; /* Original height */
+    animation-delay: 0.6s; /* Changed delay */
+}
+.star-36 {
+    top: 2.5em; /* Slightly lower */
+    left: calc(15em + 55em); /* Move 55em to the right */
+    animation-delay: 0.2s; /* Original delay */
+}
+.star-36:before {
+    content: "";
+    top: 5.5em; /* Slightly higher */
+    left: calc(-0.5em + 55em); /* Move pseudo-element 55em to the right */
+}
+
+.star-37 {
+    top: 8em; /* Closer to the top */
+    left: calc(3em + 5em); /* Below star 1 */
+    animation-delay: 0.1s; /* Original delay */
+}
+.star-37:before {
+    content: "";
+    top: 11em; /* Adjusted */
+    left: calc(-10em + 5em); /* Adjusted */
+}
+
+.star-38 {
+    top: 6em; /* Closer to the top */
+    left: calc(5em + 5em); /* Below star 2 */
+    animation-delay: 1.6s; /* Changed delay */
+}
+.star-38:before {
+    content: "";
+    top: 9em; /* Adjusted */
+    left: calc(-8em + 5em); /* Adjusted */
+}
+
+.star-39 {
+    top: 10em; /* Closer to the top */
+    left: calc(7em + 5em); /* Below star 3 */
+    animation-delay: 0.2s; /* Changed delay */
+}
+.star-39:before {
+    content: "";
+    top: 13em; /* Adjusted */
+    left: calc(-6em + 5em); /* Adjusted */
+}
+
+.star-40 {
+    top: 5em; /* Closer to the top */
+    left: calc(10em + 5em); /* Below star 4 */
+    animation-delay: 1.2s; /* Changed delay */
+}
+.star-40:before {
+    content: "";
+    top: 8em; /* Adjusted */
+    left: calc(-4em + 5em); /* Adjusted */
+}
+
+.star-41 {
+    top: 9em; /* Closer to the top */
+    left: calc(12em + 5em); /* Below star 5 */
+    animation-delay: 1.4s; /* Changed delay */
+}
+.star-41:before {
+    content: "";
+    top: 12em; /* Adjusted */
+    left: calc(-2em + 5em); /* Adjusted */
+}
+
+.star-42 {
+    top: 7em; /* Closer to the top */
+    left: calc(15em + 5em); /* Below star 6 */
+    animation-delay: 0.1s; /* Changed delay */
+}
+.star-42:before {
+    content: "";
+    top: 10em; /* Adjusted */
+    left: calc(0em + 5em); /* Adjusted */
+}
+
+.star-43 {
+    top: 11em; /* Closer to the top */
+    left: calc(17em + 5em); /* Below star 7 */
+    animation-delay: 0.3s; /* Changed delay */
+}
+.star-43:before {
+    content: "";
+    top: 14em; /* Adjusted */
+    left: calc(2em + 5em); /* Adjusted */
+}
+
+.star-44 {
+    top: 6em; /* Closer to the top */
+    left: calc(20em + 5em); /* Below star 8 */
+    animation-delay: 0.9s; /* Changed delay */
+}
+.star-44:before {
+    content: "";
+    top: 9em; /* Adjusted */
+    left: calc(4em + 5em); /* Adjusted */
+}
+
+.star-45 {
+    top: 8em; /* Closer to the top */
+    left: calc(22em + 5em); /* Below star 9 */
+    animation-delay: 0.5s; /* Changed delay */
+}
+.star-45:before {
+    content: "";
+    top: 11em; /* Adjusted */
+    left: calc(6em + 5em); /* Adjusted */
+}
+
+.star-46 {
+    top: 6.5em; /* Closer to the top */
+    left: calc(25em + 5em); /* Below star 10 */
+    animation-delay: 0.5s; /* Changed delay */
+}
+.star-46:before {
+    content: "";
+    top: 9.5em; /* Adjusted */
+    left: calc(8em + 5em); /* Adjusted */
+}
+
+.star-47 {
+    top: 5.5em; /* Closer to the top */
+    left: calc(27em + 5em); /* Below star 11 */
+    animation-delay: 0.3s; /* Changed delay */
+}
+.star-47:before {
+    content: "";
+    top: 8.5em; /* Adjusted */
+    left: calc(10em + 5em); /* Adjusted */
+}
+
+.star-48 {
+    top: 9em; /* Closer to the top */
+    left: calc(29em + 5em); /* Below star 12 */
+    animation-delay: 1s; /* Changed delay */
+}
+.star-48:before {
+    content: "";
+    top: 12em; /* Adjusted */
+    left: calc(12em + 5em); /* Adjusted */
+}
+
+.star-49 {
+    top: 4em; /* Closer to the top */
+    left: calc(31em + 5em); /* Below star 13 */
+    animation-delay: 0.5s; /* Changed delay */
+}
+.star-49:before {
+    content: "";
+    top: 7em; /* Adjusted */
+    left: calc(14em + 5em); /* Adjusted */
+}
+
+.star-50 {
+    top: 7em; /* Closer to the top */
+    left: calc(34em + 5em); /* Below star 14 */
+    animation-delay: 0.7s; /* Changed delay */
+}
+.star-50:before {
+    content: "";
+    top: 10em; /* Adjusted */
+    left: calc(16em + 5em); /* Adjusted */
+}
+
+.star-51 {
+    top: 6em; /* Closer to the top */
+    left: calc(36em + 5em); /* Below star 15 */
+    animation-delay: 0.4s; /* Changed delay */
+}
+.star-51:before {
+    content: "";
+    top: 9em; /* Adjusted */
+    left: calc(18em + 5em); /* Adjusted */
+}
+
+.star-52 {
+    top: 7em; /* Closer to the top */
+    left: calc(39em + 5em); /* Below star 16 */
+    animation-delay: 1.1s; /* Changed delay */
+}
+.star-52:before {
+    content: "";
+    top: 10em; /* Adjusted */
+    left: calc(20em + 5em); /* Adjusted */
+}
+
+.star-53 {
+    top: 6em; /* Closer to the top */
+    left: calc(41em + 5em); /* Below star 17 */
+    animation-delay: 0.9s; /* Changed delay */
+}
+.star-53:before {
+    content: "";
+    top: 9em; /* Adjusted */
+    left: calc(22em + 5em); /* Adjusted */
+}
+
+.star-54 {
+    top: 8em; /* Closer to the top */
+    left: calc(44em + 5em); /* Below star 18 */
+    animation-delay: 0.5s; /* Changed delay */
+}
+.star-54:before {
+    content: "";
+    top: 11em; /* Adjusted */
+    left: calc(24em + 5em); /* Adjusted */
+}
+
+.star-55 {
+    top: 4.5em; /* Closer to the top */
+    left: calc(46em + 5em); /* Below star 19 */
+    animation-delay: 0.2s; /* Changed delay */
+}
+.star-55:before {
+    content: "";
+    top: 7.5em; /* Adjusted */
+    left: calc(26em + 5em); /* Adjusted */
+}
+
+.star-56 {
+    top: 10.5em; /* Closer to the top */
+    left: calc(48em + 5em); /* Below star 20 */
+    animation-delay: 1.2s; /* Changed delay */
+}
+.star-56:before {
+    content: "";
+    top: 13.5em; /* Adjusted */
+    left: calc(28em + 5em); /* Adjusted */
+}
+
+.star-57 {
+    top: 6em; /* Closer to the top */
+    left: calc(50em + 5em); /* Below star 21 */
+    animation-delay: 0.2s; /* Changed delay */
+}
+.star-57:before {
+    content: "";
+    top: 9em; /* Adjusted */
+    left: calc(30em + 5em); /* Adjusted */
+}
+
+.star-58 {
+    top: 1em; /* Closer to the top */
+    left: calc(70em + 3em); /* Position to the right */
+    animation-delay: 0.5s; /* Delay for animation */
+}
+.star-58:before {
+    content: "";
+    top: 3em; /* Adjusted height */
+    left: calc(3em + 3em); /* Adjusted */
+}
+
+.star-59 {
+    top: 0em; /* Closer to the top */
+    left: calc(72em + 3em); /* Position to the right */
+    animation-delay: 1.1s; /* Delay for animation */
+}
+.star-59:before {
+    content: "";
+    top: 2em; /* Adjusted height */
+    left: calc(5em + 3em); /* Adjusted */
+}
+
+.star-60 {
+    top: 1.5em; /* Closer to the top */
+    left: calc(74em + 3em); /* Position to the right */
+    animation-delay: 0.6s; /* Delay for animation */
+}
+.star-60:before {
+    content: "";
+    top: 4em; /* Adjusted height */
+    left: calc(7em + 3em); /* Adjusted */
+}
+
+.star-61 {
+    top: 1em; /* Closer to the top */
+    left: calc(76em + 3em); /* Position to the right */
+    animation-delay: 0.2; /* Delay for animation */
+}
+.star-61:before {
+    content: "";
+    top: 5em; /* Adjusted height */
+    left: calc(9em + 3em); /* Adjusted */
+}
+
+.star-62 {
+    top: 0.5em; /* Closer to the top */
+    left: calc(78em + 3em); /* Position to the right */
+    animation-delay: 1.7s; /* Delay for animation */
+}
+.star-62:before {
+    content: "";
+    top: 4.5em; /* Adjusted height */
+    left: calc(11em + 3em); /* Adjusted */
+}
+
+
+
+
+
+
+ 
+  .shooting-star {
+    height: 0.18em;
+    width: 2.5em;
+    background-color: #ffffff;
+    transform: rotate(-30deg);
+    position: absolute;
+    right: -0.62em;
+    opacity: 0.2;
+    animation: shooting-str 2s infinite;
+  }
+
+  .shooting-star2 {
+    height: 0.18em;
+    width: 2.5em;
+    background-color: #ffffff;
+    transform: rotate(-60deg);
+    position: absolute;
+    right: -20em;
+    opacity: 0.2;
+    animation: shooting-str 3s infinite;
+  }
+
+
+
+
+  
+  @keyframes shooting-str {
+    10% {
+      transform: rotate(-30deg) translate(50em, 0em);
+    }
+    100% {
+      transform: rotate(-30deg) translate(-100em, 0);
+    }
+  }
+
+  .star {
+    display: none; /* Hide all stars initially */
+    position: absolute; /* Positioning */
+}
+
+.shooting-star {
+    display: none; /* Hide all stars initially */
+    position: absolute; /* Positioning */
+}
+.shooting-star2 {
+    display: none; /* Hide all stars initially */
+    position: absolute; /* Positioning */
+}
+
+.moon {
+    display: none; /* Hide all stars initially */
+    position: absolute; /* Positioning */
+}
+
+/* Show stars when this class is added */
+.show {
+    display: block;
+    animation: starAnimation 1s forwards; /* Optional animation */
+}
+
+
+
+
+
+
+  
